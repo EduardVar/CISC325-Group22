@@ -1,0 +1,148 @@
+/*
+General CSS
+*/
+
+body {
+    margin:0px;
+    font-size: 1rem;
+}
+
+/* 
+Header CSS
+*/
+
+header {
+    margin-top: 16px;
+}
+
+header .site-title {
+    font-size: 3rem;
+    padding: 0px 16px 0px 16px;
+}
+
+header .subtitle {
+    font-size: 1rem;
+    padding: 4px 16px 8px 16px;
+}
+
+header nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+}
+
+header nav ul {
+    margin: 0px;
+    padding: 8px 16px 8px 16px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0px 16px 0px 0px;
+    width: 150px;
+}
+
+header nav ul li a {
+    display: block;
+    background-color:rgb(108, 201, 231);
+    padding: 16px;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    color:black;
+}
+
+header #logo {
+    display:inline;
+    height: 40px;
+    width: 40px;
+    padding: 0px 16px 0px 16px;
+}
+
+/*
+Teacher Homepage Content CSS
+*/
+
+body .main {
+    margin: 16px
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0px;
+    padding: 8px 0px 8px 0px;
+    font-weight: normal;
+}
+
+#projects {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: -16px;
+}
+
+th {
+    width:25%;
+    padding: 8px 0px 8px 16px;
+    text-align: left;
+}
+
+tr {
+    border-top: 1px  solid rgb(212, 212, 212);
+    border-bottom: 1px  solid rgb(212, 212, 212);
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+tr:not(.table-header):hover{
+    background: lightblue;
+}
+
+.table-header {
+    border:none;
+}
+
+td {
+    padding: 4px 0px 4px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#new-project {
+    margin: 16px 0px 16px 0px;
+    padding: 8px;
+    background-color: rgb(73, 238, 67);
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+form {
+    padding:16px;
+    background-color: #CCC;
+    border-radius: 4px;
+    width: 18%;
+}
+
+#project-form {
+    display: none;
+}
+
+#project-form div {
+    padding: 4px;
+    width: 100%;
+    display:block;
+}
+
+.create {
+    padding: 8px;
+    background-color: rgb(73, 238, 67);
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-right: 32px;
+}
+.cancel {
+    padding: 8px;
+    background-color: rgb(238, 67, 67);
+    border: 1px solid gray;
+    border-radius: 4px;
+}
